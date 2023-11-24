@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Market</title>
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+<body>
+    <h1>Tennis Market</h1>
+    <div id="txt-welcome">
+         Welcome to Tennis Market!
+        <br>
+        Enjoy your shopping.
+        <br>
+        <br>
+        <a href="/order">order list</a>
+    </div>
+    <div class="card-wrap">
+        <div class="card">
+            <img class="card-img" src="./img/redRacket.png"/>
+            <p class="card-title">Red Racket</p>
+            <input class="card-button" type="button" value="order" 
+                onclick="location.href='/order?productId=1';" />
+        </div>
+        <div class="card">
+            <img class="card-img" src="./img/blueRacket.png"/>
+            <p class="card-title">Blue Racket</p>
+            <input class="card-button" type="button" value="order" onclick="alert(1);" />
+        </div>
+        <div class="card">
+            <img class="card-img" src="./img/blackRacket.png"/>
+            <p class="card-title">Black Racket</p>
+            <input class="card-button" type="button" value="order" onclick="alert(1);" />
+        </div>
+    </div>
+</body>
+</html>

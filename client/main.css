@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+#txt-welcome {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-wrap {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-button {
+    font-size: 25px;
+    width: 150px;
+    height: 30px;
+}
+
+.card-img {
+    width: 300px;
+    height: 300px;
+}
